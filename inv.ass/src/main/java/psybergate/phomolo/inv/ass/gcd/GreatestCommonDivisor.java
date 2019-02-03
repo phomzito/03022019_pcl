@@ -1,4 +1,4 @@
-package psybergate.phomolo.inv.ass;
+package psybergate.phomolo.inv.ass.gcd;
 
 import java.math.BigInteger;
 

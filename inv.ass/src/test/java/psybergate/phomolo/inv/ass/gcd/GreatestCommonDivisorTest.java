@@ -1,8 +1,9 @@
-package psybergate.phomolo.inv.ass;
+package psybergate.phomolo.inv.ass.gcd;
 
 import org.junit.Test;
 
 import junit.framework.Assert;
+import psybergate.phomolo.inv.ass.gcd.GreatestCommonDivisor;
 
 public class GreatestCommonDivisorTest {
 
