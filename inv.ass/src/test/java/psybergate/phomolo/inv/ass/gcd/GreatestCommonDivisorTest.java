@@ -1,9 +1,7 @@
 package psybergate.phomolo.inv.ass.gcd;
 
+import org.junit.Assert;
 import org.junit.Test;
-
-import junit.framework.Assert;
-import psybergate.phomolo.inv.ass.gcd.GreatestCommonDivisor;
 
 public class GreatestCommonDivisorTest {
 
@@ -20,7 +18,7 @@ public class GreatestCommonDivisorTest {
 	}
 
 	@Test
-	public void inorderValues() {
+	public void inorderValuesTest() {
 		int[] numbers = new int[] { 54, 18, 24, 30 };
 		GreatestCommonDivisor greatestCommonDivisor = new GreatestCommonDivisor(numbers);
 		Assert.assertEquals(greatestCommonDivisor.getDivisor(), 6);
@@ -36,7 +34,7 @@ public class GreatestCommonDivisorTest {
 	public void singleValueTest() {
 		GreatestCommonDivisor greatestCommonDivisor = new GreatestCommonDivisor(5);
 		Assert.assertEquals(5, greatestCommonDivisor.getDivisor());
-		int[] numbers = new int[] { 5, 5 , 5 , 5};
+		int[] numbers = new int[] { 5, 5, 5, 5 };
 		Assert.assertEquals(5, greatestCommonDivisor.gcd(numbers));
 		greatestCommonDivisor = new GreatestCommonDivisor(numbers);
 		Assert.assertEquals(greatestCommonDivisor.getDivisor(), 5);
